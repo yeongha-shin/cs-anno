@@ -5,7 +5,7 @@ data/
 *.crdownload
 
 # generated outputs
-output/
+#output/
 viz_out/
 
 # model bundles (downloaded; see README "Download models")

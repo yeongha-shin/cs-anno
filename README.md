@@ -29,7 +29,7 @@ curl -sSL -o pose_landmarker.task "$base/pose_landmarker/pose_landmarker_lite/fl
 
 ## 1) Extract auto pre-labels
 ```bash
-python extract.py data/kid_2.mov            # -> output/kid_2/segments.json
+python extract.py data/kid_2.mov            # -> output/kid_2.json
 python extract.py data/xxx.mov --seg 5.0 --fps 5
 ```
 - `--seg` segment length in seconds (default 5.0), `--fps` analysis sampling fps (default 5)
@@ -44,7 +44,7 @@ python review/app.py            # http://127.0.0.1:5000
   Set each label with the key shown on its option (attention 1/2/3, emotion q/w/e/r, etc.)
 - Orange dot = auto suggestion, `✎ edited` = changed from auto
 - Set order to "low confidence first" to review uncertain segments first (active learning)
-- Every change is saved immediately to `output/<name>/segments.json` (the `auto` original is kept)
+- Every change is saved immediately to `output/<name>.json` (the `auto` original is kept)
 
 ## Tuning the auto labels
 - Thresholds: top of `pipeline/labelers.py` (e.g. `SMILE_HAPPY`, `EYE_CLOSED`,
@@ -59,7 +59,7 @@ pipeline/features.py MediaPipe feature extraction (face/hands/pose)
 pipeline/labelers.py features -> label + confidence rules
 review/app.py        review Flask server
 viz_check.py         per-frame visual inspection tool
-output/<name>/segments.json   auto labels + review results
+output/<name>.json   auto labels + review results
 ```
 
 ## Output JSON (review results)

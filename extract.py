@@ -14,8 +14,8 @@ Output JSON (consumed directly by the review UI):
   }
 
 Usage:
-  python extract.py data/kid_2.mov
-  python extract.py data/kid_2.mov --seg 5.0 --fps 5 --out output/kid_2/segments.json
+  python extract.py data/kid_2.mov                       # -> output/kid_2.json
+  python extract.py data/kid_2.mov --seg 5.0 --fps 5 --out output/kid_2.json
 """
 import os, sys, json, time, argparse
 import cv2
@@ -116,7 +116,7 @@ def main():
     ap.add_argument("--fps", type=float, default=5.0, help="analysis sampling fps")
     ap.add_argument("--out", default=None, help="output JSON path")
     args = ap.parse_args()
-    out_path = args.out or f"output/{os.path.splitext(os.path.basename(args.video))[0]}/segments.json"
+    out_path = args.out or f"output/{os.path.splitext(os.path.basename(args.video))[0]}.json"
     extract_video(args.video, out_path, args.seg, args.fps)
 
 

@@ -1,0 +1,4076 @@
+{
+  "video": "/home/yeongha/pycharm/cs_anno/data/kid_2.mov",
+  "video_name": "kid_2.mov",
+  "fps": 30.0,
+  "duration": 634.267,
+  "segment_seconds": 5.0,
+  "sample_fps": 5.0,
+  "n_segments": 127,
+  "generated_at": "2026-05-26 13:38:51",
+  "segments": [
+    {
+      "idx": 0,
+      "start": 0.0,
+      "end": 5.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "2_medium",
+          "confidence": 0.364
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.446
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.683
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.576
+        }
+      },
+      "labels": {
+        "attention": "2_medium",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": true
+    },
+    {
+      "idx": 1,
+      "start": 5.0,
+      "end": 10.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.44
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.764
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.589
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 2,
+      "start": 10.0,
+      "end": 15.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.264
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.478
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.45
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 3,
+      "start": 15.0,
+      "end": 20.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.484
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.98
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.45
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 4,
+      "start": 20.0,
+      "end": 25.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.352
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.754
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.535
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.576
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 5,
+      "start": 25.0,
+      "end": 30.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.528
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.953
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.378
+        },
+        "posture": {
+          "value": "face_touching",
+          "confidence": 0.55
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "face_touching"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 6,
+      "start": 30.0,
+      "end": 35.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.55
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.951
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.59
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.336
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 7,
+      "start": 35.0,
+      "end": 40.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.528
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.683
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.288
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.365
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 8,
+      "start": 40.0,
+      "end": 45.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.528
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.865
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.525
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.384
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 9,
+      "start": 45.0,
+      "end": 50.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.468
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.494
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.414
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 10,
+      "start": 50.0,
+      "end": 55.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "2_medium",
+          "confidence": 0.269
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.291
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.45
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "2_medium",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 11,
+      "start": 55.0,
+      "end": 60.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.418
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.336
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.45
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 12,
+      "start": 60.0,
+      "end": 65.0,
+      "n_frames": 25,
+      "face_rate": 0.88,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.352
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.309
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.45
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.573
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 13,
+      "start": 65.0,
+      "end": 70.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.44
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.731
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.45
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.552
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 14,
+      "start": 70.0,
+      "end": 75.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.418
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.32
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.45
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 15,
+      "start": 75.0,
+      "end": 80.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.528
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.685
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.45
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 16,
+      "start": 80.0,
+      "end": 85.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.528
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.998
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.547
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 17,
+      "start": 85.0,
+      "end": 90.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.484
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.655
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.598
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 18,
+      "start": 90.0,
+      "end": 95.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.528
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.933
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.378
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.504
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 19,
+      "start": 95.0,
+      "end": 100.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.506
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.908
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.551
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.528
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 20,
+      "start": 100.0,
+      "end": 105.0,
+      "n_frames": 25,
+      "face_rate": 0.96,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.418
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.55
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.473
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.475
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 21,
+      "start": 105.0,
+      "end": 110.0,
+      "n_frames": 25,
+      "face_rate": 0.92,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.49
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.816
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.458
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.443
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 22,
+      "start": 110.0,
+      "end": 115.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.55
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.969
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.583
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 23,
+      "start": 115.0,
+      "end": 120.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.374
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.288
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.29
+        },
+        "posture": {
+          "value": "face_touching",
+          "confidence": 0.242
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "face_touching"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 24,
+      "start": 120.0,
+      "end": 125.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.374
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.423
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.36
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.48
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 25,
+      "start": 125.0,
+      "end": 130.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.374
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.352
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.535
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.456
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 26,
+      "start": 130.0,
+      "end": 135.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.396
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.384
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.45
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 27,
+      "start": 135.0,
+      "end": 140.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "2_medium",
+          "confidence": 0.212
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.368
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.396
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.408
+        }
+      },
+      "labels": {
+        "attention": "2_medium",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 28,
+      "start": 140.0,
+      "end": 145.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.38
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.368
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.432
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.48
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 29,
+      "start": 145.0,
+      "end": 150.0,
+      "n_frames": 25,
+      "face_rate": 0.92,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.44
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.383
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.45
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 30,
+      "start": 150.0,
+      "end": 155.0,
+      "n_frames": 25,
+      "face_rate": 0.92,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.352
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.383
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.45
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 31,
+      "start": 155.0,
+      "end": 160.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.53
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.471
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.426
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 32,
+      "start": 160.0,
+      "end": 165.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.33
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.245
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.27
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.504
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 33,
+      "start": 165.0,
+      "end": 170.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.418
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.256
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.241
+        },
+        "posture": {
+          "value": "face_touching",
+          "confidence": 0.33
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "face_touching"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 34,
+      "start": 170.0,
+      "end": 175.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.418
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.304
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.288
+        },
+        "posture": {
+          "value": "face_touching",
+          "confidence": 0.506
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "face_touching"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 35,
+      "start": 175.0,
+      "end": 180.0,
+      "n_frames": 25,
+      "face_rate": 0.4,
+      "auto": {
+        "attention": {
+          "value": "1_low",
+          "confidence": 0.322
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.32
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.311
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.36
+        }
+      },
+      "labels": {
+        "attention": "1_low",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 36,
+      "start": 180.0,
+      "end": 185.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.44
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.268
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.432
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 37,
+      "start": 185.0,
+      "end": 190.0,
+      "n_frames": 25,
+      "face_rate": 0.72,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.296
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.288
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.325
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.533
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 38,
+      "start": 190.0,
+      "end": 195.0,
+      "n_frames": 25,
+      "face_rate": 0.96,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.518
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.333
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.514
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.525
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 39,
+      "start": 195.0,
+      "end": 200.0,
+      "n_frames": 25,
+      "face_rate": 0.92,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.484
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.296
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.313
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.574
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 40,
+      "start": 200.0,
+      "end": 205.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.396
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.478
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.583
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.504
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 41,
+      "start": 205.0,
+      "end": 210.0,
+      "n_frames": 25,
+      "face_rate": 0.96,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.374
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.62
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.375
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.5
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 42,
+      "start": 210.0,
+      "end": 215.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.55
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.641
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.609
+        },
+        "posture": {
+          "value": "face_touching",
+          "confidence": 0.506
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "face_touching"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 43,
+      "start": 215.0,
+      "end": 220.0,
+      "n_frames": 25,
+      "face_rate": 0.84,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.352
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.866
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.601
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.4
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 44,
+      "start": 220.0,
+      "end": 225.0,
+      "n_frames": 25,
+      "face_rate": 0.88,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.352
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.68
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.45
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 45,
+      "start": 225.0,
+      "end": 230.0,
+      "n_frames": 25,
+      "face_rate": 0.88,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.314
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.255
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.327
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.464
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 46,
+      "start": 230.0,
+      "end": 235.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.48
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.351
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.556
+        },
+        "posture": {
+          "value": "face_touching",
+          "confidence": 0.308
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "touching",
+        "posture": "face_touching"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 47,
+      "start": 235.0,
+      "end": 240.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.368
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.233
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.541
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.451
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 48,
+      "start": 240.0,
+      "end": 245.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.398
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.289
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.521
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.408
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 49,
+      "start": 245.0,
+      "end": 250.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.33
+        },
+        "emotion": {
+          "value": "boring",
+          "confidence": 0.254
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.324
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.48
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "boring",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 50,
+      "start": 250.0,
+      "end": 255.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "2_medium",
+          "confidence": 0.25
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.32
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.396
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.576
+        }
+      },
+      "labels": {
+        "attention": "2_medium",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 51,
+      "start": 255.0,
+      "end": 260.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "2_medium",
+          "confidence": 0.432
+        },
+        "emotion": {
+          "value": "boring",
+          "confidence": 0.276
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.396
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "2_medium",
+        "emotion": "boring",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 52,
+      "start": 260.0,
+      "end": 265.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.286
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.256
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.27
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.408
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 53,
+      "start": 265.0,
+      "end": 270.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.418
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.272
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.739
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.613
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 54,
+      "start": 270.0,
+      "end": 275.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.44
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.786
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.45
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 55,
+      "start": 275.0,
+      "end": 280.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.434
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.692
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.553
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.48
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 56,
+      "start": 280.0,
+      "end": 285.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.424
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.336
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.462
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.384
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 57,
+      "start": 285.0,
+      "end": 290.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.374
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.288
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.378
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.504
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 58,
+      "start": 290.0,
+      "end": 295.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.308
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.224
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.528
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.288
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 59,
+      "start": 295.0,
+      "end": 300.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.374
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.354
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.36
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.384
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 60,
+      "start": 300.0,
+      "end": 305.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.528
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.35
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.303
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.621
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 61,
+      "start": 305.0,
+      "end": 310.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.396
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.24
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.604
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.48
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 62,
+      "start": 310.0,
+      "end": 315.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.44
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.336
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.36
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.456
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 63,
+      "start": 315.0,
+      "end": 320.0,
+      "n_frames": 25,
+      "face_rate": 0.96,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.484
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.392
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.338
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.425
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 64,
+      "start": 320.0,
+      "end": 325.0,
+      "n_frames": 25,
+      "face_rate": 0.8,
+      "auto": {
+        "attention": {
+          "value": "2_medium",
+          "confidence": 0.209
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.4
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.315
+        },
+        "posture": {
+          "value": "face_touching",
+          "confidence": 0.33
+        }
+      },
+      "labels": {
+        "attention": "2_medium",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "face_touching"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 65,
+      "start": 325.0,
+      "end": 330.0,
+      "n_frames": 25,
+      "face_rate": 0.96,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.21
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.429
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.431
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.45
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 66,
+      "start": 330.0,
+      "end": 335.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.374
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.4
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.547
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.651
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 67,
+      "start": 335.0,
+      "end": 340.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.528
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.384
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.709
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.376
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 68,
+      "start": 340.0,
+      "end": 345.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.55
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.272
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.718
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.677
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 69,
+      "start": 345.0,
+      "end": 350.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.528
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.384
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.306
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.432
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 70,
+      "start": 350.0,
+      "end": 355.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.55
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.368
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.614
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.527
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 71,
+      "start": 355.0,
+      "end": 360.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.462
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.304
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.637
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.69
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 72,
+      "start": 360.0,
+      "end": 365.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.55
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.384
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.728
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.788
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 73,
+      "start": 365.0,
+      "end": 370.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.286
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.4
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.615
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.554
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 74,
+      "start": 370.0,
+      "end": 375.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.418
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.208
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.27
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.36
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 75,
+      "start": 375.0,
+      "end": 380.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.396
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.192
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.396
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.528
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 76,
+      "start": 380.0,
+      "end": 385.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.484
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.373
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.306
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.552
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 77,
+      "start": 385.0,
+      "end": 390.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.534
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.288
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.396
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 78,
+      "start": 390.0,
+      "end": 395.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.556
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.305
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.637
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.552
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 79,
+      "start": 395.0,
+      "end": 400.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.486
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.304
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.515
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.576
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 80,
+      "start": 400.0,
+      "end": 405.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.406
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.384
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.574
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.576
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 81,
+      "start": 405.0,
+      "end": 410.0,
+      "n_frames": 25,
+      "face_rate": 0.92,
+      "auto": {
+        "attention": {
+          "value": "1_low",
+          "confidence": 0.266
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.4
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.437
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.654
+        }
+      },
+      "labels": {
+        "attention": "1_low",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 82,
+      "start": 410.0,
+      "end": 415.0,
+      "n_frames": 25,
+      "face_rate": 0.88,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.458
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.4
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.47
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.409
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 83,
+      "start": 415.0,
+      "end": 420.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.484
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.279
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.554
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.288
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 84,
+      "start": 420.0,
+      "end": 425.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.44
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.435
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.516
+        },
+        "posture": {
+          "value": "face_touching",
+          "confidence": 0.506
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "face_touching"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 85,
+      "start": 425.0,
+      "end": 430.0,
+      "n_frames": 25,
+      "face_rate": 0.92,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.292
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.352
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.523
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.417
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 86,
+      "start": 430.0,
+      "end": 435.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.346
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.842
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.526
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.504
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 87,
+      "start": 435.0,
+      "end": 440.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.494
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.598
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.36
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 88,
+      "start": 440.0,
+      "end": 445.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.494
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.46
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.51
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.576
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 89,
+      "start": 445.0,
+      "end": 450.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.484
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.368
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.512
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 90,
+      "start": 450.0,
+      "end": 455.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.55
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.288
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.351
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.552
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 91,
+      "start": 455.0,
+      "end": 460.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.528
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.384
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.592
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.576
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 92,
+      "start": 460.0,
+      "end": 465.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.528
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.32
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.378
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.863
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 93,
+      "start": 465.0,
+      "end": 470.0,
+      "n_frames": 25,
+      "face_rate": 0.96,
+      "auto": {
+        "attention": {
+          "value": "2_medium",
+          "confidence": 0.371
+        },
+        "emotion": {
+          "value": "boring",
+          "confidence": 0.318
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.499
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.379
+        }
+      },
+      "labels": {
+        "attention": "2_medium",
+        "emotion": "boring",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 94,
+      "start": 470.0,
+      "end": 475.0,
+      "n_frames": 25,
+      "face_rate": 0.96,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.462
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.772
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.748
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.543
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 95,
+      "start": 475.0,
+      "end": 480.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.33
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.4
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.685
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.384
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 96,
+      "start": 480.0,
+      "end": 485.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.374
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.384
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.288
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.48
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 97,
+      "start": 485.0,
+      "end": 490.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.396
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.24
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.308
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.576
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 98,
+      "start": 490.0,
+      "end": 495.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "2_medium",
+          "confidence": 0.33
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.461
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.424
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.576
+        }
+      },
+      "labels": {
+        "attention": "2_medium",
+        "emotion": "happy",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 99,
+      "start": 495.0,
+      "end": 500.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.44
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.352
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.636
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.404
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 100,
+      "start": 500.0,
+      "end": 505.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.528
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.4
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.438
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.334
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 101,
+      "start": 505.0,
+      "end": 510.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.55
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.368
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.324
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.36
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 102,
+      "start": 510.0,
+      "end": 515.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.44
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.487
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.526
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.36
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 103,
+      "start": 515.0,
+      "end": 520.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.558
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.272
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.592
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 104,
+      "start": 520.0,
+      "end": 525.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.492
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.336
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.654
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.336
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 105,
+      "start": 525.0,
+      "end": 530.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.382
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.241
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.414
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.456
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 106,
+      "start": 530.0,
+      "end": 535.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.48
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.451
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.737
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.528
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 107,
+      "start": 535.0,
+      "end": 540.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.562
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.256
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.605
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.419
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "speaking",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 108,
+      "start": 540.0,
+      "end": 545.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.528
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.368
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.58
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.455
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 109,
+      "start": 545.0,
+      "end": 550.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.352
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.461
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.613
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.72
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 110,
+      "start": 550.0,
+      "end": 555.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.462
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.288
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.713
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.271
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 111,
+      "start": 555.0,
+      "end": 560.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.462
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.615
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.554
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.48
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 112,
+      "start": 560.0,
+      "end": 565.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.55
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.288
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.476
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.434
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 113,
+      "start": 565.0,
+      "end": 570.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.352
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.256
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.501
+        },
+        "posture": {
+          "value": "chin_rest",
+          "confidence": 0.463
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "chin_rest"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 114,
+      "start": 570.0,
+      "end": 575.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.308
+        },
+        "emotion": {
+          "value": "boring",
+          "confidence": 0.215
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.377
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.36
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "boring",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 115,
+      "start": 575.0,
+      "end": 580.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.44
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.288
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.502
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.336
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 116,
+      "start": 580.0,
+      "end": 585.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.236
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.208
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.587
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.36
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 117,
+      "start": 585.0,
+      "end": 590.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.396
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.24
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.45
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 118,
+      "start": 590.0,
+      "end": 595.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.484
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.4
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.288
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.408
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 119,
+      "start": 595.0,
+      "end": 600.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.528
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.384
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.771
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.48
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 120,
+      "start": 600.0,
+      "end": 605.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "2_medium",
+          "confidence": 0.269
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.384
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.598
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.288
+        }
+      },
+      "labels": {
+        "attention": "2_medium",
+        "emotion": "thinking",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 121,
+      "start": 605.0,
+      "end": 610.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.484
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.384
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.517
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 122,
+      "start": 610.0,
+      "end": 615.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.528
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.47
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.516
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.36
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 123,
+      "start": 615.0,
+      "end": 620.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.44
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.355
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.516
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 124,
+      "start": 620.0,
+      "end": 625.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.576
+        },
+        "emotion": {
+          "value": "happy",
+          "confidence": 0.392
+        },
+        "action": {
+          "value": "touching",
+          "confidence": 0.474
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.504
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "happy",
+        "action": "touching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 125,
+      "start": 625.0,
+      "end": 630.0,
+      "n_frames": 25,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.528
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.272
+        },
+        "action": {
+          "value": "watching",
+          "confidence": 0.432
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.576
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "watching",
+        "posture": "upright"
+      },
+      "reviewed": false
+    },
+    {
+      "idx": 126,
+      "start": 630.0,
+      "end": 634.267,
+      "n_frames": 22,
+      "face_rate": 1.0,
+      "auto": {
+        "attention": {
+          "value": "3_high",
+          "confidence": 0.525
+        },
+        "emotion": {
+          "value": "thinking",
+          "confidence": 0.273
+        },
+        "action": {
+          "value": "speaking",
+          "confidence": 0.513
+        },
+        "posture": {
+          "value": "upright",
+          "confidence": 0.6
+        }
+      },
+      "labels": {
+        "attention": "3_high",
+        "emotion": "thinking",
+        "action": "speaking",
+        "posture": "upright"
+      },
+      "reviewed": false
+    }
+  ]
+}

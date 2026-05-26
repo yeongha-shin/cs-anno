@@ -4,7 +4,7 @@ Review web server.
   python review/app.py            # http://127.0.0.1:5000
   python review/app.py --port 5001
 
-Auto-discovers output/<name>/segments.json files and lists them.
+Auto-discovers output/<name>.json files and lists them (<name> = video stem).
 The reviewer watches the video and edits the 4 labels per segment via
 hotkeys/clicks; each change is saved immediately back to the same JSON
 (the `auto` original is preserved; `labels`/`reviewed` are updated).
@@ -21,7 +21,7 @@ app = Flask(__name__)
 
 
 def seg_path(name):
-    return os.path.join(OUTPUT_DIR, name, "segments.json")
+    return os.path.join(OUTPUT_DIR, name + ".json")
 
 
 def load(name):
@@ -39,8 +39,8 @@ def save(name, data):
 
 def list_videos():
     items = []
-    for p in sorted(glob.glob(os.path.join(OUTPUT_DIR, "*", "segments.json"))):
-        name = os.path.basename(os.path.dirname(p))
+    for p in sorted(glob.glob(os.path.join(OUTPUT_DIR, "*.json"))):
+        name = os.path.splitext(os.path.basename(p))[0]
         if name.startswith("_"):
             continue
         try:
