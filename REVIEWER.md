@@ -93,19 +93,3 @@ Then open **http://127.0.0.1:5000** in your browser (Chrome recommended).
 Orange dot = the auto suggestion. `✎ edited` = you changed it from the auto value.
 
 ---
-
-## 7. Send your results back
-All your work is saved in `output/<name>.json` (the `labels` field, plus a
-`reviewed` flag per segment). To return it:
-- **Git:** `git add output && git commit -m "review <name>" && git push`
-  (you need write access or a Personal Access Token), **or**
-- Send the `output/*.json` files back to the project owner directly.
-
----
-
-## Troubleshooting
-- **Video won't play / "video not found"** — the file isn't in `data/`, or the
-  filename doesn't match. See step 4.
-- **Port already in use** — `python review/app.py --port 5001`.
-- **Label meanings** — hover an option for its definition; the full codebook is in
-  `schema.py`.
