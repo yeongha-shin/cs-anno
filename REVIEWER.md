@@ -46,7 +46,6 @@ Expected layout after download:
 data/kid_2.mov
 data/kid_3.mp4
 data/adult_4.mp4
-data/adult_5.mp4
 ```
 
 ---
