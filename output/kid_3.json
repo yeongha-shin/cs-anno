@@ -6,7 +6,7 @@
   "segment_seconds": 5.0,
   "sample_fps": 5.0,
   "n_segments": 134,
-  "generated_at": "2026-05-26 13:54:16",
+  "generated_at": "2026-05-26 14:59:35",
   "segments": [
     {
       "idx": 0,
@@ -17,11 +17,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.484
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.352
         },
         "action": {
           "value": "watching",
@@ -49,11 +49,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.506
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.368
         },
         "action": {
           "value": "speaking",
@@ -81,11 +81,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.33
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.24
         },
         "action": {
           "value": "touching",
@@ -112,8 +112,8 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.578
+          "value": "2_medium",
+          "confidence": 0.402
         },
         "emotion": {
           "value": "happy",
@@ -129,7 +129,7 @@
         }
       },
       "labels": {
-        "attention": "3_high",
+        "attention": "2_medium",
         "emotion": "happy",
         "action": "touching",
         "posture": "upright"
@@ -144,12 +144,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
+          "value": "2_medium",
           "confidence": 0.632
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "touching",
@@ -161,8 +161,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "upright"
       },
@@ -208,12 +208,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.352
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.288
         },
         "action": {
           "value": "touching",
@@ -225,8 +225,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "chin_rest"
       },
@@ -240,12 +240,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
+          "value": "2_medium",
           "confidence": 0.396
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.352
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "touching",
@@ -257,8 +257,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "upright"
       },
@@ -272,12 +272,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
+          "value": "2_medium",
           "confidence": 0.352
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "watching",
@@ -289,8 +289,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "upright"
       },
@@ -304,12 +304,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
+          "value": "2_medium",
           "confidence": 0.476
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "touching",
@@ -321,8 +321,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "upright"
       },
@@ -337,11 +337,11 @@
       "auto": {
         "attention": {
           "value": "2_medium",
-          "confidence": 0.266
+          "confidence": 0.256
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.256
+          "value": "boring",
+          "confidence": 0.24
         },
         "action": {
           "value": "touching",
@@ -354,7 +354,7 @@
       },
       "labels": {
         "attention": "2_medium",
-        "emotion": "thinking",
+        "emotion": "boring",
         "action": "touching",
         "posture": "upright"
       },
@@ -369,11 +369,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.514
+          "confidence": 0.47
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.384
+          "confidence": 0.336
         },
         "action": {
           "value": "touching",
@@ -401,11 +401,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.33
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.368
+          "value": "boring",
+          "confidence": 0.214
         },
         "action": {
           "value": "touching",
@@ -418,7 +418,7 @@
       },
       "labels": {
         "attention": "3_high",
-        "emotion": "thinking",
+        "emotion": "boring",
         "action": "touching",
         "posture": "upright"
       },
@@ -433,11 +433,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.484
+          "confidence": 0.44
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.384
+          "confidence": 0.352
         },
         "action": {
           "value": "touching",
@@ -465,11 +465,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.462
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.32
+          "confidence": 0.256
         },
         "action": {
           "value": "watching",
@@ -496,12 +496,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.556
+          "value": "2_medium",
+          "confidence": 0.286
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.251
         },
         "action": {
           "value": "touching",
@@ -513,8 +513,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "chin_rest"
       },
@@ -689,11 +689,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.496
+          "confidence": 0.474
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.24
+          "confidence": 0.224
         },
         "action": {
           "value": "touching",
@@ -721,11 +721,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.352
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.384
+          "confidence": 0.24
         },
         "action": {
           "value": "touching",
@@ -752,12 +752,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.528
+          "value": "2_medium",
+          "confidence": 0.396
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.368
+          "value": "boring",
+          "confidence": 0.341
         },
         "action": {
           "value": "touching",
@@ -769,8 +769,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "chin_rest"
       },
@@ -785,11 +785,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.506
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.368
         },
         "action": {
           "value": "speaking",
@@ -816,12 +816,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.506
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.412
         },
         "action": {
           "value": "touching",
@@ -833,8 +833,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "chin_rest"
       },
@@ -848,12 +848,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
+          "value": "2_medium",
           "confidence": 0.55
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.368
+          "value": "boring",
+          "confidence": 0.449
         },
         "action": {
           "value": "touching",
@@ -865,8 +865,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "chin_rest"
       },
@@ -880,12 +880,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
+          "value": "2_medium",
           "confidence": 0.55
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "touching",
@@ -897,8 +897,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "chin_rest"
       },
@@ -912,12 +912,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.528
+          "value": "2_medium",
+          "confidence": 0.44
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.368
+          "value": "boring",
+          "confidence": 0.378
         },
         "action": {
           "value": "touching",
@@ -929,8 +929,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "chin_rest"
       },
@@ -944,12 +944,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.616
+          "value": "2_medium",
+          "confidence": 0.572
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.336
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "speaking",
@@ -961,8 +961,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "speaking",
         "posture": "upright"
       },
@@ -977,7 +977,7 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.574
+          "confidence": 0.486
         },
         "emotion": {
           "value": "happy",
@@ -1009,7 +1009,7 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.462
         },
         "emotion": {
           "value": "happy",
@@ -1041,11 +1041,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.506
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.368
         },
         "action": {
           "value": "touching",
@@ -1073,11 +1073,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.33
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.24
         },
         "action": {
           "value": "touching",
@@ -1105,11 +1105,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.528
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.384
         },
         "action": {
           "value": "touching",
@@ -1137,11 +1137,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.528
+          "confidence": 0.462
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.384
+          "confidence": 0.336
         },
         "action": {
           "value": "touching",
@@ -1169,11 +1169,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.44
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.384
+          "confidence": 0.304
         },
         "action": {
           "value": "watching",
@@ -1201,11 +1201,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.556
+          "confidence": 0.424
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.304
         },
         "action": {
           "value": "watching",
@@ -1265,11 +1265,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.308
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.224
         },
         "action": {
           "value": "touching",
@@ -1360,12 +1360,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.558
+          "value": "2_medium",
+          "confidence": 0.329
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.325
         },
         "action": {
           "value": "watching",
@@ -1377,8 +1377,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -1392,12 +1392,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.528
+          "value": "2_medium",
+          "confidence": 0.304
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.308
         },
         "action": {
           "value": "watching",
@@ -1409,8 +1409,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -1456,12 +1456,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.484
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.396
         },
         "action": {
           "value": "touching",
@@ -1473,8 +1473,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "chin_rest"
       },
@@ -1488,12 +1488,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.528
+          "value": "2_medium",
+          "confidence": 0.465
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.451
         },
         "action": {
           "value": "watching",
@@ -1505,8 +1505,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -1520,12 +1520,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.313
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.368
+          "value": "boring",
+          "confidence": 0.285
         },
         "action": {
           "value": "touching",
@@ -1537,8 +1537,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "face_touching"
       },
@@ -1553,11 +1553,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.562
+          "confidence": 0.518
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.368
+          "confidence": 0.336
         },
         "action": {
           "value": "touching",
@@ -1585,11 +1585,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.528
+          "confidence": 0.352
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.384
+          "confidence": 0.256
         },
         "action": {
           "value": "watching",
@@ -1745,11 +1745,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.528
+          "confidence": 0.33
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.384
+          "confidence": 0.24
         },
         "action": {
           "value": "watching",
@@ -1776,12 +1776,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.506
+          "value": "2_medium",
+          "confidence": 0.487
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "watching",
@@ -1793,8 +1793,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -1808,12 +1808,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.475
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.449
         },
         "action": {
           "value": "watching",
@@ -1825,8 +1825,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -1841,11 +1841,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.308
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.224
         },
         "action": {
           "value": "touching",
@@ -1873,11 +1873,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.418
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.384
+          "confidence": 0.288
         },
         "action": {
           "value": "touching",
@@ -1905,11 +1905,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.528
+          "confidence": 0.286
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.215
         },
         "action": {
           "value": "touching",
@@ -1922,7 +1922,7 @@
       },
       "labels": {
         "attention": "3_high",
-        "emotion": "thinking",
+        "emotion": "boring",
         "action": "touching",
         "posture": "upright"
       },
@@ -1936,12 +1936,12 @@
       "face_rate": 0.84,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.242
+          "value": "1_low",
+          "confidence": 0.19
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.362
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "touching",
@@ -1953,8 +1953,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "1_low",
+        "emotion": "boring",
         "action": "touching",
         "posture": "upright"
       },
@@ -1968,12 +1968,12 @@
       "face_rate": 0.92,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.506
+          "value": "2_medium",
+          "confidence": 0.256
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.254
         },
         "action": {
           "value": "watching",
@@ -1985,8 +1985,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "upright"
       },
@@ -2000,12 +2000,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.481
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "watching",
@@ -2017,8 +2017,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -2032,12 +2032,12 @@
       "face_rate": 0.8,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.44
+          "value": "2_medium",
+          "confidence": 0.297
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.38
+          "value": "boring",
+          "confidence": 0.336
         },
         "action": {
           "value": "watching",
@@ -2049,8 +2049,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -2064,12 +2064,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.478
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "watching",
@@ -2081,8 +2081,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -2097,11 +2097,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.552
+          "confidence": 0.288
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.235
         },
         "action": {
           "value": "touching",
@@ -2114,7 +2114,7 @@
       },
       "labels": {
         "attention": "3_high",
-        "emotion": "thinking",
+        "emotion": "boring",
         "action": "touching",
         "posture": "upright"
       },
@@ -2128,12 +2128,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.278
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.252
         },
         "action": {
           "value": "touching",
@@ -2145,8 +2145,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "upright"
       },
@@ -2160,12 +2160,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.442
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.396
         },
         "action": {
           "value": "touching",
@@ -2177,8 +2177,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "face_touching"
       },
@@ -2192,12 +2192,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.402
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.378
         },
         "action": {
           "value": "watching",
@@ -2209,8 +2209,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -2224,12 +2224,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.484
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.449
         },
         "action": {
           "value": "watching",
@@ -2241,8 +2241,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -2256,12 +2256,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.508
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "touching",
@@ -2273,8 +2273,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "chin_rest"
       },
@@ -2288,12 +2288,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.462
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.431
         },
         "action": {
           "value": "watching",
@@ -2305,8 +2305,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -2320,12 +2320,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.556
+          "value": "1_low",
+          "confidence": 0.326
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.306
         },
         "action": {
           "value": "watching",
@@ -2337,8 +2337,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "1_low",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -2352,12 +2352,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.528
+          "value": "2_medium",
+          "confidence": 0.427
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.417
         },
         "action": {
           "value": "watching",
@@ -2369,8 +2369,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -2384,12 +2384,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.475
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "watching",
@@ -2401,8 +2401,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -2416,12 +2416,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.478
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "touching",
@@ -2433,8 +2433,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "face_touching"
       },
@@ -2448,12 +2448,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.511
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "touching",
@@ -2465,8 +2465,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "chin_rest"
       },
@@ -2480,12 +2480,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.517
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "touching",
@@ -2497,8 +2497,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "chin_rest"
       },
@@ -2512,12 +2512,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.544
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.448
         },
         "action": {
           "value": "touching",
@@ -2529,8 +2529,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "chin_rest"
       },
@@ -2544,12 +2544,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.452
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.414
         },
         "action": {
           "value": "watching",
@@ -2561,8 +2561,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -2576,12 +2576,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.487
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "watching",
@@ -2593,8 +2593,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -2608,12 +2608,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.481
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "watching",
@@ -2625,8 +2625,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -2640,12 +2640,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.475
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "watching",
@@ -2657,8 +2657,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -2672,12 +2672,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.475
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.368
+          "value": "boring",
+          "confidence": 0.447
         },
         "action": {
           "value": "watching",
@@ -2689,8 +2689,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -2704,12 +2704,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.418
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.396
         },
         "action": {
           "value": "speaking",
@@ -2721,8 +2721,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "speaking",
         "posture": "face_touching"
       },
@@ -2736,12 +2736,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.446
+          "value": "2_medium",
+          "confidence": 0.259
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.306
         },
         "action": {
           "value": "touching",
@@ -2753,8 +2753,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "face_touching"
       },
@@ -2801,11 +2801,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.512
+          "confidence": 0.424
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.336
         },
         "action": {
           "value": "watching",
@@ -2864,12 +2864,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.48
+          "value": "1_low",
+          "confidence": 0.414
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.368
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "touching",
@@ -2881,8 +2881,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "1_low",
+        "emotion": "boring",
         "action": "touching",
         "posture": "upright"
       },
@@ -2896,12 +2896,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
+          "value": "1_low",
           "confidence": 0.512
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.368
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "watching",
@@ -2913,8 +2913,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "1_low",
+        "emotion": "boring",
         "action": "watching",
         "posture": "upright"
       },
@@ -2929,11 +2929,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.556
+          "confidence": 0.402
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.384
+          "confidence": 0.272
         },
         "action": {
           "value": "watching",
@@ -2960,12 +2960,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.462
+          "value": "2_medium",
+          "confidence": 0.357
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.269
         },
         "action": {
           "value": "watching",
@@ -2977,8 +2977,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "upright"
       },
@@ -2992,8 +2992,8 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.475
         },
         "emotion": {
           "value": "happy",
@@ -3009,7 +3009,7 @@
         }
       },
       "labels": {
-        "attention": "3_high",
+        "attention": "2_medium",
         "emotion": "happy",
         "action": "watching",
         "posture": "face_touching"
@@ -3024,12 +3024,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.418
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.396
         },
         "action": {
           "value": "watching",
@@ -3041,8 +3041,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -3056,12 +3056,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.556
+          "value": "2_medium",
+          "confidence": 0.292
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.32
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "touching",
@@ -3073,8 +3073,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "upright"
       },
@@ -3089,11 +3089,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.534
+          "confidence": 0.424
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.32
         },
         "action": {
           "value": "touching",
@@ -3120,12 +3120,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.528
+          "value": "2_medium",
+          "confidence": 0.294
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.368
+          "value": "boring",
+          "confidence": 0.291
         },
         "action": {
           "value": "watching",
@@ -3137,8 +3137,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -3152,12 +3152,12 @@
       "face_rate": 0.88,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.44
+          "value": "2_medium",
+          "confidence": 0.399
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.382
+          "value": "boring",
+          "confidence": 0.432
         },
         "action": {
           "value": "watching",
@@ -3169,8 +3169,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -3184,12 +3184,12 @@
       "face_rate": 0.88,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.44
+          "value": "2_medium",
+          "confidence": 0.38
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.382
+          "value": "boring",
+          "confidence": 0.451
         },
         "action": {
           "value": "speaking",
@@ -3201,8 +3201,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "speaking",
         "posture": "face_touching"
       },
@@ -3216,12 +3216,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.475
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "watching",
@@ -3233,8 +3233,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -3249,11 +3249,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.308
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.224
         },
         "action": {
           "value": "touching",
@@ -3281,11 +3281,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.286
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.216
         },
         "action": {
           "value": "touching",
@@ -3298,7 +3298,7 @@
       },
       "labels": {
         "attention": "3_high",
-        "emotion": "thinking",
+        "emotion": "boring",
         "action": "touching",
         "posture": "upright"
       },
@@ -3312,12 +3312,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.38
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.36
         },
         "action": {
           "value": "watching",
@@ -3329,8 +3329,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -3344,12 +3344,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.361
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.342
         },
         "action": {
           "value": "touching",
@@ -3361,8 +3361,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "face_touching"
       },
@@ -3377,11 +3377,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.528
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.384
         },
         "action": {
           "value": "touching",
@@ -3409,11 +3409,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.418
+          "confidence": 0.396
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.384
         },
         "action": {
           "value": "touching",
@@ -3441,11 +3441,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.38
+          "confidence": 0.358
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.384
         },
         "action": {
           "value": "touching",
@@ -3473,11 +3473,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.556
+          "confidence": 0.49
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.352
         },
         "action": {
           "value": "touching",
@@ -3504,12 +3504,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.484
+          "value": "2_medium",
+          "confidence": 0.418
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.342
         },
         "action": {
           "value": "touching",
@@ -3521,8 +3521,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "face_touching"
       },
@@ -3537,11 +3537,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.528
+          "confidence": 0.418
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.32
         },
         "action": {
           "value": "touching",
@@ -3568,12 +3568,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.418
+          "value": "2_medium",
+          "confidence": 0.38
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.325
         },
         "action": {
           "value": "touching",
@@ -3585,8 +3585,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "face_touching"
       },
@@ -3601,11 +3601,11 @@
       "auto": {
         "attention": {
           "value": "2_medium",
-          "confidence": 0.269
+          "confidence": 0.285
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.384
+          "confidence": 0.352
         },
         "action": {
           "value": "touching",
@@ -3632,12 +3632,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.528
+          "value": "2_medium",
+          "confidence": 0.348
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.324
         },
         "action": {
           "value": "watching",
@@ -3649,8 +3649,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -3664,12 +3664,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.396
+          "value": "2_medium",
+          "confidence": 0.517
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "watching",
@@ -3681,8 +3681,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -3697,11 +3697,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.528
+          "confidence": 0.33
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.256
         },
         "action": {
           "value": "watching",
@@ -3729,11 +3729,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.308
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.224
         },
         "action": {
           "value": "watching",
@@ -3761,11 +3761,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.462
+          "confidence": 0.374
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.336
         },
         "action": {
           "value": "watching",
@@ -3793,11 +3793,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.504
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.367
         },
         "action": {
           "value": "watching",
@@ -3825,11 +3825,11 @@
       "auto": {
         "attention": {
           "value": "3_high",
-          "confidence": 0.55
+          "confidence": 0.352
         },
         "emotion": {
           "value": "thinking",
-          "confidence": 0.4
+          "confidence": 0.256
         },
         "action": {
           "value": "touching",
@@ -3856,12 +3856,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.506
+          "value": "2_medium",
+          "confidence": 0.418
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.36
         },
         "action": {
           "value": "touching",
@@ -3873,8 +3873,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "chin_rest"
       },
@@ -3888,12 +3888,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.528
+          "value": "2_medium",
+          "confidence": 0.489
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.451
         },
         "action": {
           "value": "touching",
@@ -3905,8 +3905,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "chin_rest"
       },
@@ -3920,12 +3920,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.475
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "speaking",
@@ -3937,8 +3937,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "speaking",
         "posture": "face_touching"
       },
@@ -3952,12 +3952,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.418
+          "value": "2_medium",
+          "confidence": 0.486
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.451
         },
         "action": {
           "value": "watching",
@@ -3969,8 +3969,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -3984,12 +3984,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.496
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "speaking",
@@ -4001,8 +4001,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "speaking",
         "posture": "face_touching"
       },
@@ -4016,12 +4016,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.501
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.432
         },
         "action": {
           "value": "touching",
@@ -4033,8 +4033,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "chin_rest"
       },
@@ -4048,12 +4048,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.528
+          "value": "2_medium",
+          "confidence": 0.484
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.415
         },
         "action": {
           "value": "touching",
@@ -4065,8 +4065,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "touching",
         "posture": "chin_rest"
       },
@@ -4080,12 +4080,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.55
+          "value": "2_medium",
+          "confidence": 0.493
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.45
         },
         "action": {
           "value": "watching",
@@ -4097,8 +4097,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -4112,12 +4112,12 @@
       "face_rate": 1.0,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.528
+          "value": "2_medium",
+          "confidence": 0.399
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.384
+          "value": "boring",
+          "confidence": 0.397
         },
         "action": {
           "value": "watching",
@@ -4129,8 +4129,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -4144,12 +4144,12 @@
       "face_rate": 0.84,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.44
+          "value": "2_medium",
+          "confidence": 0.363
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.381
+          "value": "boring",
+          "confidence": 0.411
         },
         "action": {
           "value": "speaking",
@@ -4161,8 +4161,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "speaking",
         "posture": "face_touching"
       },
@@ -4176,12 +4176,12 @@
       "face_rate": 0.88,
       "auto": {
         "attention": {
-          "value": "3_high",
-          "confidence": 0.484
+          "value": "2_medium",
+          "confidence": 0.228
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.245
         },
         "action": {
           "value": "watching",
@@ -4193,8 +4193,8 @@
         }
       },
       "labels": {
-        "attention": "3_high",
-        "emotion": "thinking",
+        "attention": "2_medium",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },
@@ -4240,12 +4240,12 @@
       "face_rate": 0.76,
       "auto": {
         "attention": {
-          "value": "2_medium",
-          "confidence": 0.19
+          "value": "1_low",
+          "confidence": 0.281
         },
         "emotion": {
-          "value": "thinking",
-          "confidence": 0.4
+          "value": "boring",
+          "confidence": 0.355
         },
         "action": {
           "value": "watching",
@@ -4257,8 +4257,8 @@
         }
       },
       "labels": {
-        "attention": "2_medium",
-        "emotion": "thinking",
+        "attention": "1_low",
+        "emotion": "boring",
         "action": "watching",
         "posture": "face_touching"
       },

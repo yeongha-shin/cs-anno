@@ -21,7 +21,8 @@ import os, sys, json, time, argparse
 import cv2
 
 from pipeline.features import FeatureExtractor
-from pipeline.labelers import LABELERS, aggregate, aggregate_action
+from pipeline.labelers import (LABELERS, aggregate, aggregate_action,
+                               aggregate_attention, aggregate_emotion)
 from schema import DIMENSIONS, default_value
 
 
@@ -43,6 +44,7 @@ def extract_video(video_path, out_path, segment_seconds=5.0, sample_fps=5):
     # seg_idx -> {dim: [(value, conf), ...]} + jawOpen list + face/frame counts
     buckets = [{d: [] for d in DIMENSIONS} for _ in range(n_segments)]
     jaw = [[] for _ in range(n_segments)]
+    motion = [[] for _ in range(n_segments)]    # (face_cx, face_cy) per frame -> body movement
     face_hit = [0] * n_segments
     frame_cnt = [0] * n_segments
 
@@ -62,6 +64,8 @@ def extract_video(video_path, out_path, segment_seconds=5.0, sample_fps=5):
                     if f.get("face_detected"):
                         face_hit[seg] += 1
                         jaw[seg].append(f.get("jaw_open", 0.0))
+                        if "face_cx" in f:
+                            motion[seg].append((f["face_cx"], f["face_cy"]))
                     for dim, fn in LABELERS.items():
                         buckets[seg][dim].append(fn(f))
                     if frame_cnt[seg] == 1 and seg % 10 == 0:
@@ -76,6 +80,10 @@ def extract_video(video_path, out_path, segment_seconds=5.0, sample_fps=5):
         for dim in DIMENSIONS:
             if dim == "action":
                 value, conf = aggregate_action(buckets[i][dim], jaw[i])
+            elif dim == "attention":
+                value, conf = aggregate_attention(buckets[i][dim], motion[i])
+            elif dim == "emotion":
+                value, conf = aggregate_emotion(buckets[i][dim], motion[i])
             else:
                 value, conf = aggregate(buckets[i][dim])
             auto[dim] = {"value": value, "confidence": conf}

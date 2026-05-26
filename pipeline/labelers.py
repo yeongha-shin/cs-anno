@@ -23,6 +23,12 @@ FACE_BOX_MARGIN = 0.10    # expand face bbox by this fraction; hand inside => fa
 IPAD_Y = 0.80             # if a hand's lowest point y exceeds this (lower screen) => touching
 YAW_AWAY = 28.0           # |yaw| above this = head turned from screen (attention penalty, deg)
 
+# ---- attention penalties (engagement reducers) ----
+ATT_CHIN_REST_PENALTY = 0.15   # resting chin on the hand -> less active engagement
+ATT_FACE_TOUCH_PENALTY = 0.20  # hand on the face -> distracted / self-soothing
+ATT_MOVE_ONE = 0.020      # mean per-frame face-center shift above this -> down 1 level (fidgeting)
+ATT_MOVE_TWO = 0.045      # ... well above this -> down 2 levels (restless / leaving the task)
+
 # ---- emotion ----
 SMILE_HAPPY = 0.20        # mouth-smile blendshape above this => happy
 EYE_CLOSED = 0.45         # eyeOpen below this (eyes nearly closed) => boring
@@ -36,6 +42,17 @@ SPEAK_JAW_RANGE = 0.14    # and max-min of jawOpen above this => speaking
 
 def _clamp(x, lo=0.0, hi=1.0):
     return max(lo, min(hi, x))
+
+
+def _posture_of(f):
+    """Posture value for this frame, computed once and cached on the dict.
+
+    attention/emotion both read posture as an engagement cue; caching avoids
+    redoing the hand-vs-face geometry for each.
+    """
+    if "_posture" not in f:
+        f["_posture"] = label_posture(f)[0]
+    return f["_posture"]
 
 
 def label_posture(f):
@@ -99,6 +116,12 @@ def label_attention(f):
     # hand in the writing/task area (low) while facing the screen -> engagement bonus
     if f.get("hand_to_face", 9) > 1.3 and f.get("n_hands", 0) > 0 and yaw < 20:
         score += 0.10
+    # a hand engaging the face (not the task) signals reduced engagement
+    posture = _posture_of(f)
+    if posture == "chin_rest":
+        score -= ATT_CHIN_REST_PENALTY
+    elif posture == "face_touching":
+        score -= ATT_FACE_TOUCH_PENALTY
     score = _clamp(score)
 
     if score < 0.40:
@@ -128,9 +151,11 @@ def label_emotion(f):
     # frustrated: pressed lips / frown / lowered brows
     if frown > FROWN_FRUSTRATED or press > 0.5 or brow_down > BROW_CONFUSED:
         return ("frustrated", _clamp(0.35 + max(frown, press, brow_down)))
-    # boring: only when eyes are nearly closed (drowsy / slumping)
+    # boring: drowsy (eyes nearly closed) or a disengaged hand-to-face posture
     if eye_open < EYE_CLOSED:
         return ("boring", _clamp(0.4 + (EYE_CLOSED - eye_open)))
+    if _posture_of(f) in ("chin_rest", "face_touching"):
+        return ("boring", 0.45)
     # otherwise neutral (eyes open, no smile/frown) -> thinking
     return ("thinking", 0.4)
 
@@ -194,3 +219,53 @@ def aggregate_action(frame_values, jaw_values):
                 return (base_val, base_conf)     # hand firmly on tablet -> keep touching
             return ("speaking", round(_clamp(0.45 + std), 3))
     return (base_val, base_conf)
+
+
+_ATT_ORDER = ["1_low", "2_medium", "3_high"]
+
+
+def _attention_down(value, steps):
+    """Lower an attention label by `steps` levels (clamped at 1_low)."""
+    return _ATT_ORDER[max(0, _ATT_ORDER.index(value) - steps)]
+
+
+def _mean_step(positions):
+    """Mean frame-to-frame displacement of a normalized point (0 if < 2 points).
+
+    A settled child barely moves; a fidgety one shifts the face center a lot
+    between frames, so this is a simple per-segment "how much did they move" cue.
+    """
+    if len(positions) < 2:
+        return 0.0
+    return sum(math.hypot(positions[i][0] - positions[i - 1][0],
+                          positions[i][1] - positions[i - 1][1])
+               for i in range(1, len(positions))) / (len(positions) - 1)
+
+
+def aggregate_attention(frame_values, motion_values):
+    """Segment-level attention: frequent body movement = less settled on the task.
+
+    motion_values: (face_cx, face_cy) per face-present frame. A lot of movement
+    drops the attention level (a little -> down 1, a lot -> down 2).
+    """
+    value, conf = aggregate(frame_values)
+    if value is None:
+        return (value, conf)
+    move = _mean_step(motion_values)
+    if move > ATT_MOVE_TWO:
+        value = _attention_down(value, 2)
+    elif move > ATT_MOVE_ONE:
+        value = _attention_down(value, 1)
+    return (value, conf)
+
+
+def aggregate_emotion(frame_values, motion_values):
+    """Segment-level emotion: lots of movement reads as restless -> 'boring'.
+
+    Only a neutral 'thinking' segment is overridden; clear expressions
+    (happy / frustrated / already-boring from eyes or posture) are kept.
+    """
+    value, conf = aggregate(frame_values)
+    if value == "thinking" and _mean_step(motion_values) > ATT_MOVE_ONE:
+        return ("boring", max(conf, 0.45))
+    return (value, conf)

@@ -2,32 +2,118 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Review - videos</title>
+<title>Review - dashboard</title>
 <style>
   body { font-family: -apple-system, system-ui, sans-serif; background:#1e1f22; color:#e6e6e6; margin:0; padding:40px; }
   h1 { font-size:20px; }
+  h2 { font-size:15px; color:#c8ccd0; margin:32px 0 12px; font-weight:600; }
+  .wrap { max-width:880px; }
+
+  /* summary cards */
+  .summary { display:flex; flex-wrap:wrap; gap:12px; }
+  .stat { background:#2b2d31; border:1px solid #3a3d42; border-radius:10px;
+          padding:14px 18px; flex:1; min-width:120px; }
+  .stat .num { font-size:26px; font-weight:700; }
+  .stat .lbl { color:#9aa0a6; font-size:12px; margin-top:2px; }
+
+  /* distribution */
+  .dim { background:#2b2d31; border:1px solid #3a3d42; border-radius:10px;
+         padding:16px 20px; margin:12px 0; }
+  .dim .title { font-size:14px; font-weight:600; margin-bottom:10px; }
+  .stack { display:flex; height:14px; border-radius:7px; overflow:hidden; background:#3a3d42; }
+  .stack span { height:100%; }
+  .legend { display:flex; flex-wrap:wrap; gap:14px; margin-top:10px; font-size:13px; color:#cfd3d7; }
+  .legend .item { display:flex; align-items:center; gap:6px; }
+  .dot { width:10px; height:10px; border-radius:2px; display:inline-block; }
+  .legend .c { color:#9aa0a6; }
+
+  /* video list */
+  .row { display:flex; align-items:center; gap:12px; margin:12px 0; }
+  .row .pick { flex:0 0 auto; }
   .card { display:block; background:#2b2d31; border:1px solid #3a3d42; border-radius:10px;
-          padding:16px 20px; margin:12px 0; text-decoration:none; color:inherit; max-width:680px; }
+          padding:16px 20px; text-decoration:none; color:inherit; flex:1; }
   .card:hover { border-color:#5b9dff; }
+  .card.off { opacity:0.45; }
   .name { font-size:16px; font-weight:600; }
   .meta { color:#9aa0a6; font-size:13px; margin-top:4px; }
   .bar { height:8px; background:#3a3d42; border-radius:4px; margin-top:10px; overflow:hidden; }
   .fill { height:100%; background:#4caf50; }
   .empty { color:#9aa0a6; }
+  .controls { margin:6px 0 0; display:flex; gap:10px; align-items:center; }
+  button { background:#5b9dff; color:#fff; border:none; border-radius:7px;
+           padding:8px 16px; font-size:13px; font-weight:600; cursor:pointer; }
+  button:hover { background:#4a8cef; }
+  .controls a { color:#9aa0a6; font-size:13px; text-decoration:none; }
+  .controls a:hover { color:#cfd3d7; }
+  .hint { color:#9aa0a6; font-size:13px; }
 </style>
 </head>
 <body>
-  <h1>Videos to review</h1>
+<div class="wrap">
+  <h1>Annotation dashboard</h1>
+
   {% if not videos %}
     <p class="empty">No analyzed videos yet. Run <code>python extract.py &lt;video&gt;</code> first.</p>
-  {% endif %}
-  {% for v in videos %}
-    <a class="card" href="/review/{{ v.name }}">
-      <div class="name">{{ v.video_name }}</div>
-      <div class="meta">{{ v.n }} segments · {{ '%.0f'|format(v.duration) }}s ·
-        reviewed {{ v.reviewed }}/{{ v.n }}</div>
-      <div class="bar"><div class="fill" style="width: {{ (100*v.reviewed/v.n) if v.n else 0 }}%"></div></div>
-    </a>
+  {% else %}
+
+  <p class="hint">Stats below cover <strong>{{ stats.n_videos }}</strong> of {{ videos|length }} videos
+    (selected in the list).</p>
+
+  <div class="summary">
+    <div class="stat"><div class="num">{{ stats.n_videos }}</div><div class="lbl">Videos in stats</div></div>
+    <div class="stat"><div class="num">{{ stats.n_segments }}</div><div class="lbl">Segments</div></div>
+    <div class="stat">
+      <div class="num">{{ stats.n_reviewed }} <span style="font-size:14px;color:#9aa0a6">/ {{ stats.n_segments }}</span></div>
+      <div class="lbl">Reviewed ({{ '%.0f'|format(stats.progress) }}%)</div>
+    </div>
+    <div class="stat">
+      <div class="num">{{ '%.0f'|format(stats.change_pct) }}%</div>
+      <div class="lbl">Corrected by reviewer</div>
+    </div>
+  </div>
+
+  <h2>Label distribution</h2>
+  {% for dim in stats.dims %}
+    <div class="dim">
+      <div class="title">{{ dim.title }}</div>
+      <div class="stack">
+        {% for o in dim.options %}
+          {% if o.pct %}<span title="{{ o.label }}: {{ o.count }}" style="width:{{ o.pct }}%;background:{{ o.color }}"></span>{% endif %}
+        {% endfor %}
+      </div>
+      <div class="legend">
+        {% for o in dim.options %}
+          <span class="item">
+            <span class="dot" style="background:{{ o.color }}"></span>
+            {{ o.label }} <span class="c">{{ o.count }} ({{ '%.0f'|format(o.pct) }}%)</span>
+          </span>
+        {% endfor %}
+      </div>
+    </div>
   {% endfor %}
+
+  <h2>Videos</h2>
+  <form method="get">
+    <div class="controls">
+      <button type="submit">Update stats</button>
+      <a href="/">select all</a>
+      <span class="hint">tick the videos to include in the stats above</span>
+    </div>
+    {% for v in videos %}
+      <div class="row">
+        <input class="pick" type="checkbox" name="v" value="{{ v.name }}"
+               {% if v.name in selected %}checked{% endif %} title="include in stats">
+        <a class="card {% if v.name not in selected %}off{% endif %}" href="/review/{{ v.name }}">
+          <div class="name">{{ v.video_name }}</div>
+          <div class="meta">{{ v.n }} segments · {{ '%.0f'|format(v.duration) }}s ·
+            reviewed {{ v.reviewed }}/{{ v.n }}</div>
+          <div class="bar"><div class="fill" style="width: {{ (100*v.reviewed/v.n) if v.n else 0 }}%"></div></div>
+        </a>
+      </div>
+    {% endfor %}
+  </form>
+
+  {% endif %}
+</div>
 </body>
 </html>
