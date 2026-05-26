@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Review - {{ name }}</title>
+<style>
+  :root { --bg:#1e1f22; --panel:#2b2d31; --line:#3a3d42; --accent:#5b9dff; --good:#4caf50; --warn:#e5a23c; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system, system-ui, sans-serif; background:var(--bg); color:#e6e6e6; margin:0; }
+  header { display:flex; align-items:center; gap:16px; padding:10px 18px; background:var(--panel);
+           border-bottom:1px solid var(--line); position:sticky; top:0; z-index:10; }
+  header a { color:var(--accent); text-decoration:none; }
+  header .title { font-weight:600; }
+  header .prog { margin-left:auto; color:#9aa0a6; font-size:14px; }
+  .progbar { width:160px; height:8px; background:var(--line); border-radius:4px; overflow:hidden; }
+  .progbar > div { height:100%; background:var(--good); width:0; }
+  .wrap { display:flex; gap:18px; padding:18px; align-items:flex-start; }
+  .left { flex:1 1 60%; min-width:0; }
+  .right { flex:1 1 40%; max-width:560px; }
+  video { width:100%; border-radius:8px; background:#000; }
+  .navrow { display:flex; align-items:center; gap:10px; margin-top:10px; flex-wrap:wrap; }
+  button { background:#3a3d42; color:#e6e6e6; border:1px solid #4a4d52; border-radius:6px;
+           padding:7px 12px; cursor:pointer; font-size:14px; }
+  button:hover { border-color:var(--accent); }
+  button.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+  .seglabel { font-size:15px; }
+  .seglabel .t { color:#9aa0a6; }
+  select { background:#3a3d42; color:#e6e6e6; border:1px solid #4a4d52; border-radius:6px; padding:6px; }
+  .dim { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:14px 16px; margin-bottom:14px; }
+  .dim h3 { margin:0 0 4px; font-size:15px; }
+  .dim .auto { font-size:12px; color:#9aa0a6; margin-bottom:10px; }
+  .dim .auto .conf.low { color:var(--warn); font-weight:600; }
+  .opts { display:flex; flex-wrap:wrap; gap:8px; }
+  .opt { position:relative; border:1px solid #4a4d52; border-radius:8px; padding:8px 12px; cursor:pointer; min-width:96px; }
+  .opt:hover { border-color:var(--accent); }
+  .opt.sel { background:var(--accent); border-color:var(--accent); color:#fff; }
+  .opt .key { font-size:11px; opacity:.7; border:1px solid currentColor; border-radius:3px; padding:0 4px; margin-right:6px; }
+  .opt .lbl { font-weight:600; }
+  .opt .auto-dot { position:absolute; top:6px; right:6px; width:8px; height:8px; border-radius:50%; background:var(--warn); display:none; }
+  .opt.isauto .auto-dot { display:block; }
+  .edited { color:var(--warn); font-size:12px; margin-left:8px; }
+  .hint { color:#9aa0a6; font-size:12px; margin-top:8px; line-height:1.6; }
+  .badge { font-size:11px; padding:1px 7px; border-radius:10px; background:var(--line); margin-left:6px; }
+  .badge.rev { background:var(--good); color:#fff; }
+</style>
+</head>
+<body>
+<header>
+  <a href="/">← videos</a>
+  <span class="title">{{ name }}</span>
+  <span id="segbadge" class="badge"></span>
+  <div class="prog">
+    <span id="progtext"></span>
+    <div class="progbar"><div id="progfill"></div></div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="left">
+    <video id="vid" controls preload="auto" src="/video/{{ name }}"></video>
+    <div class="navrow">
+      <button id="prev">◀ Prev (←)</button>
+      <button id="next">Next (→) ▶</button>
+      <button id="replay">⟲ Replay segment</button>
+      <span class="seglabel">
+        <span class="t">segment</span> <b id="segidx">-</b> / <span id="segtotal">-</span>
+        <span class="t" id="segtime"></span>
+        <span class="t" id="segface"></span>
+      </span>
+    </div>
+    <div class="navrow">
+      <label class="t">order:</label>
+      <select id="order">
+        <option value="seq">sequential</option>
+        <option value="lowconf">low confidence first (review priority)</option>
+        <option value="unrev">unreviewed only</option>
+      </select>
+      <label><input type="checkbox" id="loop" checked> loop segment</label>
+      <button id="marknext" class="primary">Mark reviewed + next (Enter)</button>
+    </div>
+    <div class="hint" id="hint"></div>
+  </div>
+
+  <div class="right" id="dims"></div>
+</div>
+
+<script>
+const NAME = {{ name|tojson }};
+let SCHEMA = null, DATA = null, segs = [], order = [], pos = 0;
+
+async function boot() {
+  SCHEMA = await (await fetch('/api/schema')).json();
+  DATA = await (await fetch('/api/segments/' + NAME)).json();
+  segs = DATA.segments;
+  document.getElementById('segtotal').textContent = segs.length;
+  buildDimSkeleton();
+  rebuildOrder();
+  go(0);
+  updateProgress();
+}
+
+function segConf(s) {  // segment uncertainty = min auto confidence over the 4 dims
+  return Math.min(...SCHEMA.dimensions.map(d => (s.auto[d] && s.auto[d].confidence) || 0));
+}
+
+function rebuildOrder() {
+  const mode = document.getElementById('order').value;
+  let idxs = segs.map((s, i) => i);
+  if (mode === 'lowconf') idxs.sort((a, b) => segConf(segs[a]) - segConf(segs[b]));
+  else if (mode === 'unrev') idxs = idxs.filter(i => !segs[i].reviewed);
+  order = idxs.length ? idxs : segs.map((s, i) => i);
+  pos = 0;
+}
+
+function curIdx() { return order[pos]; }
+
+function buildDimSkeleton() {
+  const root = document.getElementById('dims');
+  root.innerHTML = '';
+  for (const dim of SCHEMA.dimensions) {
+    const d = SCHEMA.dims[dim];
+    const el = document.createElement('div');
+    el.className = 'dim'; el.id = 'dim-' + dim;
+    const opts = d.options.map(o => {
+      const key = Object.keys(d.hotkeys).find(k => d.hotkeys[k] === o.value) || '';
+      return `<div class="opt" data-dim="${dim}" data-val="${o.value}" title="${o.desc}">
+                <span class="auto-dot"></span>
+                <div>${key ? `<span class="key">${key}</span>` : ''}<span class="lbl">${o.label}</span></div>
+              </div>`;
+    }).join('');
+    el.innerHTML = `<h3>${d.title} <span class="edited" id="ed-${dim}"></span></h3>
+                    <div class="auto" id="auto-${dim}"></div>
+                    <div class="opts">${opts}</div>`;
+    root.appendChild(el);
+  }
+  root.querySelectorAll('.opt').forEach(o =>
+    o.addEventListener('click', () => setLabel(o.dataset.dim, o.dataset.val)));
+}
+
+function renderSeg() {
+  const s = segs[curIdx()];
+  document.getElementById('segidx').textContent = curIdx();
+  document.getElementById('segtime').textContent = ` (${s.start.toFixed(1)}-${s.end.toFixed(1)}s)`;
+  document.getElementById('segface').textContent = ` · face ${Math.round(s.face_rate*100)}%`;
+  const b = document.getElementById('segbadge');
+  b.textContent = s.reviewed ? 'reviewed' : 'not reviewed';
+  b.className = 'badge' + (s.reviewed ? ' rev' : '');
+  for (const dim of SCHEMA.dimensions) {
+    const a = s.auto[dim] || {value:null, confidence:0};
+    const cur = s.labels[dim];
+    const low = a.confidence < 0.5;
+    document.getElementById('auto-' + dim).innerHTML =
+      `auto: <b>${a.value ?? 'none'}</b> <span class="conf ${low?'low':''}">conf ${a.confidence.toFixed(2)}</span>`;
+    document.getElementById('ed-' + dim).textContent =
+      (cur !== a.value) ? '✎ edited' : '';
+    document.querySelectorAll(`#dim-${dim} .opt`).forEach(o => {
+      o.classList.toggle('sel', o.dataset.val === cur);
+      o.classList.toggle('isauto', o.dataset.val === a.value);
+    });
+  }
+}
+
+function go(p) {
+  pos = (p + order.length) % order.length;
+  renderSeg();
+  seekToSeg();
+}
+
+function seekToSeg() {
+  const s = segs[curIdx()];
+  const v = document.getElementById('vid');
+  v.currentTime = s.start;
+  v.play().catch(()=>{});
+}
+
+function setLabel(dim, val) {
+  const s = segs[curIdx()];
+  s.labels[dim] = val;
+  renderSeg();
+  save({idx: s.idx, labels: {[dim]: val}});
+}
+
+function markReviewedNext() {
+  const s = segs[curIdx()];
+  s.reviewed = true;
+  save({idx: s.idx, reviewed: true, labels: s.labels});
+  renderSeg(); updateProgress();
+  go(pos + 1);
+}
+
+async function save(payload) {
+  try {
+    const r = await (await fetch('/api/save/' + NAME, {
+      method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload)
+    })).json();
+    if (r.reviewed != null) setProgress(r.reviewed, r.n);
+  } catch(e) { console.error(e); }
+}
+
+function updateProgress() {
+  setProgress(segs.filter(s=>s.reviewed).length, segs.length);
+}
+function setProgress(rev, n) {
+  document.getElementById('progtext').textContent = `reviewed ${rev}/${n}`;
+  document.getElementById('progfill').style.width = (n? 100*rev/n : 0) + '%';
+}
+
+// loop within the current segment
+const vid = document.getElementById('vid');
+vid.addEventListener('timeupdate', () => {
+  if (!document.getElementById('loop').checked) return;
+  const s = segs[curIdx()];
+  if (s && (vid.currentTime >= s.end || vid.currentTime < s.start - 0.1)) vid.currentTime = s.start;
+});
+
+document.getElementById('prev').onclick = () => go(pos - 1);
+document.getElementById('next').onclick = () => go(pos + 1);
+document.getElementById('replay').onclick = seekToSeg;
+document.getElementById('marknext').onclick = markReviewedNext;
+document.getElementById('order').onchange = () => { rebuildOrder(); go(0); };
+
+// keyboard shortcuts
+document.addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
+  if (e.key === 'ArrowLeft') { go(pos-1); e.preventDefault(); return; }
+  if (e.key === 'ArrowRight') { go(pos+1); e.preventDefault(); return; }
+  if (e.key === 'Enter') { markReviewedNext(); e.preventDefault(); return; }
+  if (e.key === ' ') { vid.paused ? vid.play() : vid.pause(); e.preventDefault(); return; }
+  for (const dim of SCHEMA.dimensions) {
+    const hk = SCHEMA.dims[dim].hotkeys;
+    if (hk[e.key]) { setLabel(dim, hk[e.key]); e.preventDefault(); return; }
+  }
+});
+
+document.getElementById('hint').innerHTML =
+  'Shortcuts — ←/→: move segment · Space: play/pause · Enter: mark reviewed + next · ' +
+  'set each label with the key shown on its option. Orange dot = auto suggestion, ✎ edited = changed from auto.';
+
+boot();
+</script>
+</body>
+</html>

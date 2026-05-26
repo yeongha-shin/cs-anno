@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Review - videos</title>
+<style>
+  body { font-family: -apple-system, system-ui, sans-serif; background:#1e1f22; color:#e6e6e6; margin:0; padding:40px; }
+  h1 { font-size:20px; }
+  .card { display:block; background:#2b2d31; border:1px solid #3a3d42; border-radius:10px;
+          padding:16px 20px; margin:12px 0; text-decoration:none; color:inherit; max-width:680px; }
+  .card:hover { border-color:#5b9dff; }
+  .name { font-size:16px; font-weight:600; }
+  .meta { color:#9aa0a6; font-size:13px; margin-top:4px; }
+  .bar { height:8px; background:#3a3d42; border-radius:4px; margin-top:10px; overflow:hidden; }
+  .fill { height:100%; background:#4caf50; }
+  .empty { color:#9aa0a6; }
+</style>
+</head>
+<body>
+  <h1>Videos to review</h1>
+  {% if not videos %}
+    <p class="empty">No analyzed videos yet. Run <code>python extract.py &lt;video&gt;</code> first.</p>
+  {% endif %}
+  {% for v in videos %}
+    <a class="card" href="/review/{{ v.name }}">
+      <div class="name">{{ v.video_name }}</div>
+      <div class="meta">{{ v.n }} segments · {{ '%.0f'|format(v.duration) }}s ·
+        reviewed {{ v.reviewed }}/{{ v.n }}</div>
+      <div class="bar"><div class="fill" style="width: {{ (100*v.reviewed/v.n) if v.n else 0 }}%"></div></div>
+    </a>
+  {% endfor %}
+</body>
+</html>

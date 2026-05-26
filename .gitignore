@@ -1,0 +1,23 @@
+# data (large videos)
+data/
+*.mov
+*.mp4
+*.crdownload
+
+# generated outputs
+output/
+viz_out/
+
+# model bundles (downloaded; see README "Download models")
+models/*.task
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# editor / OS
+.idea/
+.vscode/
+.DS_Store
