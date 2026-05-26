@@ -93,10 +93,17 @@ def api_save(name):
 @app.route("/video/<name>")
 def video(name):
     d = load(name)
-    path = d["video"]
-    if not os.path.exists(path):
-        abort(404, f"video file missing: {path}")
-    return send_file(path, conditional=True)   # Range requests -> seeking works
+    # Portable lookup: prefer a local data/<video_name> (works after clone on any
+    # machine), then fall back to the absolute path recorded at extraction time.
+    vn = d.get("video_name")
+    candidates = []
+    if vn:
+        candidates.append(os.path.join(ROOT, "data", vn))
+    candidates.append(d.get("video", ""))
+    for path in candidates:
+        if path and os.path.exists(path):
+            return send_file(path, conditional=True)   # Range requests -> seeking works
+    abort(404, f"video not found. Put '{vn}' into the data/ folder.")
 
 
 if __name__ == "__main__":
